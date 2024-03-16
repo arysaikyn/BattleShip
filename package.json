@@ -1,0 +1,37 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "A simple BattleShip game",
+  "main": "./game.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arysaikyn/BattleShip.git"
+  },
+  "author": "Arys Aikyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arysaikyn/BattleShip/issues"
+  },
+  "homepage": "https://github.com/arysaikyn/BattleShip#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^29.7.0",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.3"
+  },
+  "dependencies": {
+    "jest-config": "^29.7.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>BattleShip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <video id="background-video" autoplay loop muted>
+      <source  src="<%=require('./public/background.mp4')%>" type="video/mp4">
+    </video>
+    <div class="windowContainer">
+      <div class="window">
+        <h1></h1>
+        <button class="Button"></button>
+        </div>
+      </div>
+    </div>
+    <div class="game">
+      <div class="messageContainer">
+        <h1 class="message"></h1>
+      </div>
+      <div class="boardContainer">
+        <div id="human" class="board"></div>
+        <div id="robot" class="board"></div>
+      </div>
+    </div>
+  </body>
+</html>
