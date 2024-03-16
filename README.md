@@ -7,7 +7,7 @@
 > [curriculum](https://www.theodinproject.com/lessons/node-path-javascript-battleship).
 
 ## ✨ Demo
-[![Battleship Homepage](../media/battleship-desktop.webp?raw=true)](https://arysaikyn.github.io/battleship)
+[![Battleship Homepage](./src/public/demo.gif)](https://arysaikyn.github.io/battleship)
 
 ## 📜 Docs
 
