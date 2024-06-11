@@ -15,8 +15,8 @@ const BATTLESHIP_MESSAGE = 'Battleship';
 let game;
 
 function startGame() {
-    human = new Player("human");
-    robot = new Player("robot");
+    let human = new Player("human");
+    let robot = new Player("robot");
     game = new GameBoard([human, robot]);
     game.initGame();
     game.cleanBoard();
