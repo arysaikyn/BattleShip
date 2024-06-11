@@ -44,10 +44,6 @@ const config = {
         test: /\.(mp4)$/i,
         type: 'asset/resource',
       }
-
-
-      // Add your rules for custom modules here
-      // Learn more about loaders from https://webpack.js.org/loaders/
     ],
   },
 };
