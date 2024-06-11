@@ -30,7 +30,8 @@
     "mini-css-extract-plugin": "^2.9.0",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.3"
+    "webpack-dev-server": "^5.0.3",
+    "workbox-webpack-plugin": "^7.1.0"
   },
   "dependencies": {
     "jest-config": "^29.7.0"
