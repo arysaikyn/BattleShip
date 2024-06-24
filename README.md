@@ -1,6 +1,6 @@
 # 🚢 BATTLESHIP
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/JCarlosLucio/battleship#readme)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/arysaikyn/battleship#readme)
 
 > A Battleship game using Test Driven Development with Jest.
 > Developed for The Odin Project's
